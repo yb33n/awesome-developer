@@ -1,0 +1,8 @@
+{
+  "label": "HTML Content",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "The content of an HTML document is primarily contained within the <body> element. This chapter will explore the <body> element and the most common elements used to structure and present content on a web page."
+  }
+}
