@@ -138,10 +138,20 @@ Links are **inline elements**. This means:
     - Regularly audit your site for broken links
     - Use tools or scripts to automate this process
 
-## Advanced Usage: Download Links
+## Advanced Usage
+
+### Download Links
 
 You can use the `download` attribute to suggest a filename when downloading a file:
 
 ```html
 <a href="/files/report.pdf" download="annual-report-2023.pdf">Download Annual Report</a>
+```
+
+### Mailto Links
+
+You can pre-fill the subject and body of an email using the `mailto` link:
+
+```html
+<a href="mailto:example@example.com?subject=Feedback&body=Hi%20there,">Send Feedback</a>
 ```

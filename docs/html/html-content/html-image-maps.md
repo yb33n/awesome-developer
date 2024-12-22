@@ -1,9 +1,9 @@
 ---
-sidebar_position: 10
+sidebar_position: 9
 description: Image maps in HTML allow you to create clickable areas on an image, turning parts of the image into hyperlinks. This is achieved using the `<img>` element in conjunction with the `<map>` and `<area>` elements.
 ---
 
-# HTML Image Maps: Using `<img>` and `<map>` Elements
+# HTML Image and Image Maps
 
 Image maps in HTML allow you to create clickable areas on an image, turning parts of the image into hyperlinks. This is achieved using the `<img>` element in conjunction with the `<map>` and `<area>` elements.
 
@@ -31,12 +31,37 @@ The `<img>` element is used to embed the image on the web page.
 
 - `src`: Specifies the path to the image file
 - `alt`: Provides alternative text for the image
+- `width` and `height`: Define the dimensions of the image
 - `usemap`: References the `<map>` element by its name
 
 Example:
 ```html
 <img src="world-map.jpg" alt="World Map" usemap="#worldmap">
 ```
+
+### Responsive Images
+
+For responsive design, use percentage values for `width` and `height` attributes or CSS to control image size.
+
+Example:
+```html
+<img src="world-map.jpg" alt="World Map" usemap="#worldmap" style="width: 100%;">
+```
+
+### Object fit Property
+
+The `object-fit` CSS property can be used to control how the image is resized within its container.
+
+Example:
+```css
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+```
+
+`object-fit: cover` will ensure that the image covers the entire container, **cropping** it if necessary.
 
 ## The `<map>` Element
 

@@ -3,13 +3,13 @@
 <!-- TOC_START -->
 
 - **Web Technology**
-  - **Web Basics**
+  - **How The Web Works: Web Basics**
     - [The Internet In a Nutshell](docs/web-technology/web-basics/the-internet-in-a-nut-shell.md)
     - [The World Wide Web](docs/web-technology/web-basics/the-world-wide-web.md)
     - [Web Browser Architecture](docs/web-technology/web-basics/web-browser-architecture.md)
     - [Web Standards](docs/web-technology/web-basics/web-standards.md)
     - [Web Hosting: Host Your Website](docs/web-technology/web-basics/web-hosting.md)
-- **HTML**
+- **Structuring Web Page: HTML**
   - [HTML Brief Introduction](docs/html/html-brief-intro.md)
   - [HTML Syntax: Tags, Attributes, and Elements](docs/html/html-syntax-tags-attributes-elements.md)
   - [Block and Inline Elements](docs/html/block-and-inline-elements.md)
@@ -23,8 +23,7 @@
     - [HTML Tables](docs/html/html-content/html-tables.md)
     - [HTML Semantic Elements](docs/html/html-content/html-semantic-elements.md)
     - [HTML Details and Summary Elements](docs/html/html-content/html-details-and-summary-elements.md)
-    - [HTML Advanced Text Markup: dfn, abbr, code, and pre](docs/html/html-content/elements-dfn-abbr-code-pre.md)
-    - [HTML Image Maps: Using `<img>` and `<map>` Elements](docs/html/html-content/html-image-maps.md)
+    - [HTML Image and Image Maps](docs/html/html-content/html-image-maps.md)
   - **HTML Form**
     - [HTML Forms](docs/html/html-form/html-forms.md)
     - [Form Elements: Input, Input Types](docs/html/html-form/form-elements-input-and-input-types.md)
@@ -36,7 +35,7 @@
     - [The `<video>` Element and Media Stream API](docs/html/elements-and-apis/video-media-stream-api.md)
   - **Accessibility**
     - [aria-labelledby Attribute](docs/html/accessibility/aria-labelledby-attribute.md)
-- **CSS**
+- **Styling Web Page: CSS**
   - [CSS Brief Introduction](docs/css/css-brief-introduction.md)
   - [CSS Inheritance Cascade](docs/css/css-inheritance-cascade.md)
   - [CSS Selectors](docs/css/css-selectors.md)
@@ -55,7 +54,7 @@
   - **CSS Functions**
     - [The `repeat()` Function in CSS](docs/css/css-functions/repeat.md)
   - [CSS Media Query and Responsive Styles](docs/css/css-media-query.md)
-- **JavaScript Language**
+- **Interacting with Web Page: JavaScript**
   - [An Introduction to JavaScript](docs/javascript/an-introduction-to-javascript.md)
   - **JavaScript Datatype**
     - [Falsy Values in JavaScript](docs/javascript/javascript-datatype/falsy-value-null-undefined.md)
