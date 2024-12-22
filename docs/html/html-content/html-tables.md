@@ -18,29 +18,6 @@ A basic table consists of the following elements:
 6. `<th>`: Defines a header cell
 7. `<td>`: Defines a standard data cell
 
-## Basic Table Syntax
-
-```html
-<table>
-  <thead>
-    <tr>
-      <th>Header 1</th>
-      <th>Header 2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Row 1, Cell 1</td>
-      <td>Row 1, Cell 2</td>
-    </tr>
-    <tr>
-      <td>Row 2, Cell 1</td>
-      <td>Row 2, Cell 2</td>
-    </tr>
-  </tbody>
-</table>
-```
-
 ## Table Attributes
 
 1. `colspan`: Specifies how many columns a cell should span
@@ -70,6 +47,57 @@ Example:
   </tr>
 </table>
 ```
+
+## Defining the borders of a table
+
+In older HTML versions, you could define a border for a table like this:
+
+```html
+<table border="1">
+  <tr>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+  </tr>
+  <tr>
+    <td>Cell 3</td>
+    <td>Cell 4</td>
+  </tr>
+</table>
+```
+
+The `border` attribute could take a number value, where:
+- `border="0"` meant no border
+- Any value greater than 0 (like `border="1"`) would display a border
+
+However, this attribute is now **obsolete** because:
+
+1. It mixes presentational aspects with content structure, which goes against modern web development practices that separate content (HTML) from presentation (CSS).
+
+2. It offers limited control over the border's appearance.
+
+3. It's not as flexible or powerful as CSS for styling.
+
+The modern approach is to use CSS to style table borders, as it provides more control and adheres to the separation of concerns principle. For example:
+
+```html
+<table class="bordered-table">
+  <!-- table content -->
+</table>
+```
+
+```css
+.bordered-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.bordered-table td, .bordered-table th {
+  border: 1px solid black;
+  padding: 5px;
+}
+```
+
+This CSS approach allows for more detailed control over border styles, colors, and widths, and keeps the styling separate from the HTML structure.
 
 ## Caption
 

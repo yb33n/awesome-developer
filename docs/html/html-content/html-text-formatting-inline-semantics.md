@@ -180,6 +180,16 @@ function <dfn>sayHello</dfn>(name) {
 <p>In <abbr title="Cascading Style Sheets">CSS</abbr>, the <code>display: flex;</code> property creates a flexible container.</p>
 ```
 
+### 13. Line Break: `<br>`
+- Represents a line break within text content. Useful for creating new lines without starting a new paragraph.
+
+```html
+<p>
+    This is a line of text.<br>
+    This is another line of text.
+</p>
+```
+
 ## Best Practices and Considerations
 
 ### 1. Semantic Usage:

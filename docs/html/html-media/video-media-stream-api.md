@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 description: The `<video>` element is a core part of HTML5, allowing developers to easily embed video content without relying on third-party plugins.
 ---
 
@@ -7,15 +7,13 @@ description: The `<video>` element is a core part of HTML5, allowing developers 
 
 The `<video>` element is a core part of HTML5, allowing developers to easily embed video content without relying on third-party plugins.
 
-Basic usage:
-
 ```html
 <video src="movie.mp4" controls>
   Your browser does not support the video tag.
 </video>
 ```
 
-### Key Attributes:
+## Key Attributes:
 
 - `src`: Specifies the video source
 - `controls`: Displays video controls (play, pause, volume, etc.)

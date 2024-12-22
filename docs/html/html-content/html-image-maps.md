@@ -31,7 +31,7 @@ The `<img>` element is used to embed the image on the web page.
 
 - `src`: Specifies the path to the image file
 - `alt`: Provides alternative text for the image
-- `width` and `height`: Define the dimensions of the image
+- `width` and `height`: Define the dimensions of the image. Changing one of the values will maintain the aspect ratio.
 - `usemap`: References the `<map>` element by its name
 
 Example:

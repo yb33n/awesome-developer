@@ -1,5 +1,3 @@
-# Project Name
-
 <!-- TOC_START -->
 
 - **Web Technology**
@@ -30,9 +28,10 @@
     - [Form Elements: Label](docs/html/html-form/form-elements-label.md)
     - [Name and ID Attributes](docs/html/html-form/name-and-id-attributes.md)
     - [Form Validation](docs/html/html-form/form-validation.md)
+  - **HTML Media**
+    - [The `<audio>` Element and Web Audio API](docs/html/html-media/audio-element-and-web-audio-api.md)
+    - [The `<video>` Element and Media Stream API](docs/html/html-media/video-media-stream-api.md)
   - [HTML Head: The Document Metadata, Scripts, and Styles](docs/html/html-head-metadata-script-style.md)
-  - **Elements and APIs**
-    - [The `<video>` Element and Media Stream API](docs/html/elements-and-apis/video-media-stream-api.md)
   - **Accessibility**
     - [aria-labelledby Attribute](docs/html/accessibility/aria-labelledby-attribute.md)
 - **Styling Web Page: CSS**
