@@ -66,6 +66,7 @@
       - [Array Manipulation - slice() and splice()](docs/javascript/built-in-functions/array-methods/array-method-slice-and-splice.md)
       - [Array Sorting - sort()](docs/javascript/built-in-functions/array-methods/array-method-sort.md)
       - [Array Accumulator: reduce()](docs/javascript/built-in-functions/array-methods/array-method-reduce.md)
+      - [Array.from() in JavaScript](docs/javascript/built-in-functions/array-methods/array-from.md)
     - **String Methods**
       - [String Comparison - localeCompare](docs/javascript/built-in-functions/string-methods/string-comparision-localcompare.md)
     - **Object Methods**
@@ -78,5 +79,12 @@
   - **Advanced JavaScript Topics**
     - [Scheduling: setTimeout() and setInterval()](docs/javascript/advanced-javascript-topics/scheduling-settimeout-setinterval.md)
     - [The Event Loop](docs/javascript/advanced-javascript-topics/the-event-loop.md)
+- **Static Types for JavaScript: TypeScript**
+  - [A Comprehensive Overview of TypeScript](docs/typescript/comprehensive-overview-of-typescript.md)
+  - [TypeScript File Types and Library Declarations](docs/typescript/file-types-and-library-declarations.md)
+  - **TypeScript Compiler and Project Configuration**
+    - [TypeScript Compiler `tsc` Overview](docs/typescript/typescript-compiler-and-project-configuration/typescript-compiler-tsc-overview.md)
+    - [TypeScript Project Configuration: `tsconfig.json` ](docs/typescript/typescript-compiler-and-project-configuration/typeScript-project-configuration.md)
+    - [TypeScript Module Resolution](docs/typescript/typescript-compiler-and-project-configuration/typescript-module-resolution.md)
 
 <!-- TOC_END -->
