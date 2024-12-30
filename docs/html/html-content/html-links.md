@@ -3,7 +3,7 @@ sidebar_position: 4
 description: The <a> (anchor) element is used to create hyperlinks in HTML. Links are fundamental to the web, allowing users to navigate between pages and resources.
 ---
 
-# HTML Links
+# HTML Anchor: Hyperlink in HTML
 
 The `<a>` (anchor) element is used to create hyperlinks in HTML. Links are fundamental to the web, allowing users to navigate between pages and resources.
 

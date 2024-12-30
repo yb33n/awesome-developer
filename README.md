@@ -1,12 +1,11 @@
 <!-- TOC_START -->
 
-- **Web Technology**
-  - **How The Web Works: Web Basics**
-    - [The Internet In a Nutshell](docs/web-technology/web-basics/the-internet-in-a-nut-shell.md)
-    - [The World Wide Web](docs/web-technology/web-basics/the-world-wide-web.md)
-    - [Web Browser Architecture](docs/web-technology/web-basics/web-browser-architecture.md)
-    - [Web Standards](docs/web-technology/web-basics/web-standards.md)
-    - [Web Hosting: Host Your Website](docs/web-technology/web-basics/web-hosting.md)
+- **How The Web Works: Web Basics**
+  - [The Internet In a Nutshell](docs/web-basics/the-internet-in-a-nut-shell.md)
+  - [The World Wide Web](docs/web-basics/the-world-wide-web.md)
+  - [Web Browser Architecture](docs/web-basics/web-browser-architecture.md)
+  - [Web Standards](docs/web-basics/web-standards.md)
+  - [Web Hosting: Host Your Website](docs/web-basics/web-hosting.md)
 - **Structuring Web Page: HTML**
   - [HTML Brief Introduction](docs/html/html-brief-intro.md)
   - [HTML Syntax: Tags, Attributes, and Elements](docs/html/html-syntax-tags-attributes-elements.md)
@@ -16,7 +15,7 @@
     - [HTML Content: Body, Heading and Paragraph](docs/html/html-content/html-content-body-heading-paragraph.md)
     - [HTML Text Formatting, Inline semantics](docs/html/html-content/html-text-formatting-inline-semantics.md)
     - [HTML Block and Inline Containers: Divs and Spans](docs/html/html-content/html-block-and-inline-containers-divs-and-spans.md)
-    - [HTML Links](docs/html/html-content/html-links.md)
+    - [HTML Anchor: Hyperlink in HTML](docs/html/html-content/html-links.md)
     - [HTML Lists](docs/html/html-content/html-lists.md)
     - [HTML Tables](docs/html/html-content/html-tables.md)
     - [HTML Semantic Elements](docs/html/html-content/html-semantic-elements.md)
@@ -61,7 +60,7 @@
     - [Spread Operator (...)](docs/javascript/language-syntax/spread-operator.md)
   - **Functions**
     - [Various Ways to Define Functions in JavaScript](docs/javascript/functions/various-ways-to-define-functions.md)
-  - **Built-in Functions**
+  - **Common Built-in Functions**
     - **Array Methods**
       - [Array Manipulation - slice() and splice()](docs/javascript/built-in-functions/array-methods/array-method-slice-and-splice.md)
       - [Array Sorting - sort()](docs/javascript/built-in-functions/array-methods/array-method-sort.md)
@@ -86,5 +85,18 @@
     - [TypeScript Compiler `tsc` Overview](docs/typescript/typescript-compiler-and-project-configuration/typescript-compiler-tsc-overview.md)
     - [TypeScript Project Configuration: `tsconfig.json` ](docs/typescript/typescript-compiler-and-project-configuration/typeScript-project-configuration.md)
     - [TypeScript Module Resolution](docs/typescript/typescript-compiler-and-project-configuration/typescript-module-resolution.md)
+- **Operating System: I/O System**
+  - [Interrupt Handlers in Operating Systems](docs/io-system/interrupt-handlers-in-os.md)
+  - [I/O Systems in Operating Systems](docs/io-system/io-system-in-os.md)
+  - [Blocking vs. Non-Blocking I/O](docs/io-system/blocking-vs-non-blocking-io.md)
 
 <!-- TOC_END -->
+
+<!--
+  TODO
+    OS: I/O System
+    NodeJS
+    Tailwind, React
+    CS: Networking
+    Next/Nuxt/Remix, React Native
+-->
