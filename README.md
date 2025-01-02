@@ -97,6 +97,12 @@
     - [Blocking vs. Non-Blocking I/O](docs/operating-system/io-system/blocking-vs-non-blocking-io.md)
 - **Node.js**
   - [CommonJS vs. ES Modules (ESM) in Node.js](docs/nodejs/commonjs-vs-esmodule.md)
+  - **NPM: Node.js Package Management**
+    - [Node.js Package Management: From NVM to NPM and Beyond](docs/nodejs/npm/nodejs-package-management.md)
+    - [Deep Dive into `package.json`: Configurations for Node Porjects](docs/nodejs/npm/package-json-configurations.md)
+    - [Command `npm link`: Create Symlinks Between Projects and Packages](docs/nodejs/npm/npm-link-symlinks.md)
+    - [`bin` Field in package.json: Executable Scripts and CLI Tools](docs/nodejs/npm/bin-executable-scripts.md)
+    - [Monorepo Support in npm Projects](docs/nodejs/npm/menorepo-support-in-npm.md)
 
 <!-- TOC_END -->
 
