@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# Object Literals
+# Object Literals: `{ ... }`
 
-Object literals provide a concise syntax for creating objects in JavaScript. They use curly braces `{}` to define an object, containing one or more key-value pairs. Each pair consists of a property name (key) and a property value, separated by a colon `:`. Multiple key-value pairs are separated by commas `,`.
+Object literals provide a concise syntax for creating objects in JavaScript. 
 
-The basic syntax for object literals is as follows:
+## The Basic Syntax
 
 ```javascript
 const obj = {
@@ -38,6 +38,41 @@ In this example, we define an object named `person` with four properties:
 - `isStudent` with a boolean value `false`
 - `greet` with a function value
 
+## Property Names: Quoted vs. Unquoted
+
+When defining object properties, you can use either quoted or unquoted property names. For example:
+
+```javascript
+const obj1 = {
+  name: 'haha'
+};
+
+const obj2 = {
+  'name': 'haha'
+};
+```
+
+These two notations are equivalent in most cases, but there are some important distinctions:
+
+1. **Syntax**: The unquoted version is more concise and commonly used.
+
+2. **Flexibility**: Quoted property names allow for any string as a key, including those with spaces or special characters.
+
+3. **Use cases**: 
+   - Use unquoted names for simple, valid JavaScript identifiers.
+   - Use quoted names for keys with spaces, hyphens, or other special characters.
+
+4. **Dynamic property names**: For variable or expression-based property names, use square brackets:
+
+   ```javascript
+   const key = 'name';
+   const obj = {
+     [key]: 'haha'
+   };
+   ```
+
+## Enhanced Syntax (ES6+)
+
 Object literals also support enhanced syntax, such as computed property names, shorthand property names, and method definition shorthand. These syntaxes were introduced in ES6 (ECMAScript 2015) to make object literals more concise and readable.
 
 For example:
@@ -52,11 +87,17 @@ const person = {
   ['full' + 'Name']: `${name} Smith`, // computed property name
   greet() { // method definition shorthand
     console.log(`Hello, my name is ${this.name}`);
-  }
+  },
+  'first name': 'John', // quoted property name for special characters
+  'last-name': 'Doe'    // quoted property name for hyphenated key
 };
 ```
 
-In this example, we use shorthand property syntax for `name` and `age`. We also use computed property name syntax `['full' + 'Name']` to dynamically define a property name. Lastly, we use method definition shorthand syntax `greet() { ... }` to define a method.
+In this example, we use:
+- Shorthand property syntax for `name` and `age`
+- Computed property name syntax `['full' + 'Name']` to dynamically define a property name
+- Method definition shorthand syntax `greet() { ... }` to define a method
+- Quoted property names for keys with spaces and hyphens
 
 ## Parentheses-Wrapped Object Literal Form
 

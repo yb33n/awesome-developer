@@ -4,24 +4,29 @@
   - **Programming Languages**
     - **JavaScript**
       - [An Introduction to JavaScript](docs/programming-fundamentals/programming-languages/javascript/an-introduction-to-javascript.md)
+      - **Language Syntax Fundamentals**
+        - [Comparisons and Strict Equality `===` in JavaScript](docs/programming-fundamentals/programming-languages/javascript/language-syntax-fundamentals/comparison-and-strict-equality.md)
+        - [JavaScript Loops: A Comprehensive Guide](docs/programming-fundamentals/programming-languages/javascript/language-syntax-fundamentals/loops-in-javascript.md)
+        - [JavaScript: `in` Operator, `for...in`, and `for...of` Loops](docs/programming-fundamentals/programming-languages/javascript/language-syntax-fundamentals/in-operator-forin-forof-loops.md)
+        - [Spread Operator (...)](docs/programming-fundamentals/programming-languages/javascript/language-syntax-fundamentals/spread-operator.md)
       - **JavaScript Datatype**
         - [Falsy Values in JavaScript](docs/programming-fundamentals/programming-languages/javascript/javascript-datatype/falsy-value-null-undefined.md)
-      - **Language Syntax**
-        - [Spread Operator (...)](docs/programming-fundamentals/programming-languages/javascript/language-syntax/spread-operator.md)
       - **Functions**
         - [Various Ways to Define Functions in JavaScript](docs/programming-fundamentals/programming-languages/javascript/functions/various-ways-to-define-functions.md)
+      - **Objects and Object-Oriented**
+        - [Object Literals: `{ ... }`](docs/programming-fundamentals/programming-languages/javascript/objects-and-object-oriented/object-literals.md)
+        - [Symbol Type: `Symbol()`](docs/programming-fundamentals/programming-languages/javascript/objects-and-object-oriented/symbol-type.md)
       - **Common Built-in Functions**
         - **Array Methods**
-          - [Array Manipulation - slice() and splice()](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/array-methods/array-method-slice-and-splice.md)
-          - [Array Sorting - sort()](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/array-methods/array-method-sort.md)
-          - [Array Accumulator: reduce()](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/array-methods/array-method-reduce.md)
+          - [Array Manipulation - `slice()` and `splice()`](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/array-methods/slice-and-splice.md)
+          - [Array Manipulation - `concat()` and `push()`](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/array-methods/concat-and-push.md)
+          - [Array Sorting - sort()](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/array-methods/sort.md)
           - [Array.from() in JavaScript](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/array-methods/array-from.md)
+          - [Array Accumulator: reduce()](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/array-methods/reduce.md)
         - **String Methods**
           - [String Comparison - localeCompare](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/string-methods/string-comparision-localcompare.md)
         - **Object Methods**
           - [Object.fromEntries(): Converting Key-Value Pairs to Objects](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/object-methods/object-from-entries.md)
-      - **Objects and Object-Oriented**
-        - [Object Literals](docs/programming-fundamentals/programming-languages/javascript/objects-and-object-oriented/object-literals.md)
       - **DOM and Web APIs**
         - [The innerHTML Property](docs/programming-fundamentals/programming-languages/javascript/dom-and-web-apis/element-innerhtml-usage.md)
         - [Built-in Object: FormData to Representing HTML Form](docs/programming-fundamentals/programming-languages/javascript/dom-and-web-apis/formData-built-in-object.md)
@@ -102,6 +107,8 @@
         - [Command `npm link`: Create Symlinks Between Projects and Packages](docs/web-development/backend-development/nodejs/npm/npm-link-symlinks.md)
         - [`bin` Field in package.json: Executable Scripts and CLI Tools](docs/web-development/backend-development/nodejs/npm/bin-executable-scripts.md)
         - [Monorepo Support in npm Projects](docs/web-development/backend-development/nodejs/npm/menorepo-support-in-npm.md)
+      - **Node.js in Command Line**
+        - [Understanding `#!/usr/bin/env node` and What Is Shebang or Hashbang](docs/web-development/backend-development/nodejs/cli/shebang-and-hashbang.md)
 - **Operating System**
   - **I/O System**
     - [Interrupt Handlers in Operating Systems](docs/operating-system/io-system/interrupt-handlers-in-os.md)

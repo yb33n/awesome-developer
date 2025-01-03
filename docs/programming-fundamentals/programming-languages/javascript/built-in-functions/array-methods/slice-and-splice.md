@@ -2,24 +2,42 @@
 sidebar_position: 1
 ---
 
-# Array Manipulation - slice() and splice()
+# Array Manipulation - `slice()` and `splice()`
 
 ## Extracting the Last Two Elements from an Array
 
 1. Using `slice()`:
 ```javascript
    const arr = [1, 2, 3, 4, 5];
-   const lastTwo = arr.slice(-2);
-   console.log(lastTwo); // Output: [4, 5]
+
+   const arr1 = arr.slice(2); // [3, 4, 5]
+
+   const lastTwo = arr.slice(-2); // [4, 5]
+
+   const arr2 = arr.slice(1, 3); // [2, 3]
 
    const copied = arr.slice(); // Copying the entire array
 ```
 
 2. Using `splice()`:
 ```javascript
-   const arr = [1, 2, 3, 4, 5];
-   const lastTwo = arr.splice(-2);
-   console.log(lastTwo); // Output: [4, 5]
+   // delete items from index 2
+   const oldArr = [1, 2, 3, 4, 5];
+   const newArr = oldArr.splice(2); // oldArr: [1, 2], newArr: [3, 4, 5]
+
+   const oldArr = [1, 2, 3, 4, 5];
+   const newArr = oldArr.splice(-2); // oldArr: [1, 2, 3], newArr: [4, 5]
+
+   const oldArr = [1, 2, 3, 4, 5];
+   const newArr = oldArr.splice(); // oldArr: [1, 2, 3, 4, 5], newArr: []
+
+   // delete 3 items from index 1
+   const oldArr = [1, 2, 3, 4, 5];
+   const newArr = oldArr.splice(1, 3); // oldArr: [1, 5], newArr: [2, 3, 4]
+
+   // delete 2 items from index 1, and replce it with 'a'
+   const oldArr = [1, 2, 3, 4, 5];
+   const newArr = oldArr.splice(1, 2, 'a'); // oldArr: [1, 'a', 4, 5] newArr: [2, 3]
 ```
 
 Note: This method modifies the original array.
