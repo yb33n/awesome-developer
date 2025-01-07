@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Spread Operator (...)
+# Spread Operator (`...`)
 
 The spread syntax, introduced in ES6 (ECMAScript 2015), is a powerful feature in JavaScript that allows an iterable (such as an array or object) to be expanded in places where zero or more arguments or elements are expected. It's denoted by three dots (`...`).
 

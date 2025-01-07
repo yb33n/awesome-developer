@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Array.from() in JavaScript
+# `Array.from()` in JavaScript
 
 `Array.from()` is a powerful static method in JavaScript that creates a new, shallow-copied Array instance from an array-like or iterable object.
 

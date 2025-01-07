@@ -1,5 +1,5 @@
 
-# Built-in Object: FormData to Representing HTML Form
+# Built-in Object: `FormData` to Representing HTML Form
 
 FormData is a built-in JavaScript object that provides a way to easily construct a set of key/value pairs representing form fields and their values. It's designed to simplify the process of capturing, organizing, and transmitting form data, especially in the context of AJAX requests.
 

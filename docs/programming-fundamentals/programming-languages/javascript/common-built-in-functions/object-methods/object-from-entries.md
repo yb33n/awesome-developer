@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Object.fromEntries(): Converting Key-Value Pairs to Objects
+# `Object.fromEntries()`: Converting Key-Value Pairs to Objects
 
 `Object.fromEntries()` is a static method in JavaScript used to transform a list of key-value pairs into an object. It serves as the inverse operation of `Object.entries()` and was introduced in ES2019 (ES10).
 

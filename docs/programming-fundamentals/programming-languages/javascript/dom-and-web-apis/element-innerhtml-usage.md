@@ -3,7 +3,7 @@ sidebar_position: 1
 description: The `innerHTML` is a property that gets or sets the HTML content inside an element.
 ---
 
-# The innerHTML Property
+# The `innerHTML` Property
 
 `innerHTML` is a property that gets or sets the HTML content inside an element.
 

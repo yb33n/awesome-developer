@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-# Scheduling: setTimeout() and setInterval()
+# Scheduling: `setTimeout()` and `setInterval()`
 
 JavaScript provides two main functions for scheduling code execution: 
 - `setTimeout()` allows us to run a function once after the interval of time. 

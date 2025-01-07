@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Array Sorting - sort()
+# Array Sorting - `sort()`
 
 ## Understanding the Comparison Function ECMAScript Specification
 

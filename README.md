@@ -4,11 +4,12 @@
   - **Programming Languages**
     - **JavaScript**
       - [An Introduction to JavaScript](docs/programming-fundamentals/programming-languages/javascript/an-introduction-to-javascript.md)
+      - [The Evolution of ECMAScript: Feature by Feature](docs/programming-fundamentals/programming-languages/javascript/the-evolution-of-ecmascript.md)
       - **Language Syntax Fundamentals**
         - [Comparisons and Strict Equality `===` in JavaScript](docs/programming-fundamentals/programming-languages/javascript/language-syntax-fundamentals/comparison-and-strict-equality.md)
-        - [JavaScript Loops: A Comprehensive Guide](docs/programming-fundamentals/programming-languages/javascript/language-syntax-fundamentals/loops-in-javascript.md)
+        - [JavaScript Loops](docs/programming-fundamentals/programming-languages/javascript/language-syntax-fundamentals/loops-in-javascript.md)
         - [JavaScript: `in` Operator, `for...in`, and `for...of` Loops](docs/programming-fundamentals/programming-languages/javascript/language-syntax-fundamentals/in-operator-forin-forof-loops.md)
-        - [Spread Operator (...)](docs/programming-fundamentals/programming-languages/javascript/language-syntax-fundamentals/spread-operator.md)
+        - [Spread Operator (`...`)](docs/programming-fundamentals/programming-languages/javascript/language-syntax-fundamentals/spread-operator.md)
       - **JavaScript Datatype**
         - [Falsy Values in JavaScript](docs/programming-fundamentals/programming-languages/javascript/javascript-datatype/falsy-value-null-undefined.md)
       - **Functions**
@@ -16,23 +17,28 @@
       - **Objects and Object-Oriented**
         - [Object Literals: `{ ... }`](docs/programming-fundamentals/programming-languages/javascript/objects-and-object-oriented/object-literals.md)
         - [Symbol Type: `Symbol()`](docs/programming-fundamentals/programming-languages/javascript/objects-and-object-oriented/symbol-type.md)
+      - **Modules**
+        - [[TODO]  ECMAScript Modules (ESM)](docs/programming-fundamentals/programming-languages/javascript/modules/ecmascript-modules.md)
+      - **Asynchronous JavaScript: Callbacks, Promises, Async/Await**
+        - [Callbacks and Their Relationship with Asynchronous Programming](docs/programming-fundamentals/programming-languages/javascript/asynchronous-javascript/callbacks-and-asynchronous-programming.md)
+        - [Callbacks and Functional Programming: In-Depth Programming Concepts](docs/programming-fundamentals/programming-languages/javascript/asynchronous-javascript/callbacks-and-funtional-programming-in-depth.md)
+        - [Scheduling: `setTimeout()` and `setInterval()`](docs/programming-fundamentals/programming-languages/javascript/asynchronous-javascript/scheduling-settimeout-setinterval.md)
       - **Common Built-in Functions**
         - **Array Methods**
-          - [Array Manipulation - `slice()` and `splice()`](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/array-methods/slice-and-splice.md)
-          - [Array Manipulation - `concat()` and `push()`](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/array-methods/concat-and-push.md)
-          - [Array Sorting - sort()](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/array-methods/sort.md)
-          - [Array.from() in JavaScript](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/array-methods/array-from.md)
-          - [Array Accumulator: reduce()](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/array-methods/reduce.md)
+          - [Array Manipulation - `slice()` and `splice()`](docs/programming-fundamentals/programming-languages/javascript/common-built-in-functions/array-methods/slice-and-splice.md)
+          - [Array Manipulation - `concat()` and `push()`](docs/programming-fundamentals/programming-languages/javascript/common-built-in-functions/array-methods/concat-and-push.md)
+          - [Array Sorting - `sort()`](docs/programming-fundamentals/programming-languages/javascript/common-built-in-functions/array-methods/sort.md)
+          - [`Array.from()` in JavaScript](docs/programming-fundamentals/programming-languages/javascript/common-built-in-functions/array-methods/array-from.md)
+          - [Array Accumulator: `reduce()`](docs/programming-fundamentals/programming-languages/javascript/common-built-in-functions/array-methods/reduce.md)
         - **String Methods**
-          - [String Comparison - localeCompare](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/string-methods/string-comparision-localcompare.md)
+          - [String Comparison - `localeCompare()`](docs/programming-fundamentals/programming-languages/javascript/common-built-in-functions/string-methods/string-comparision-localcompare.md)
         - **Object Methods**
-          - [Object.fromEntries(): Converting Key-Value Pairs to Objects](docs/programming-fundamentals/programming-languages/javascript/built-in-functions/object-methods/object-from-entries.md)
+          - [`Object.fromEntries()`: Converting Key-Value Pairs to Objects](docs/programming-fundamentals/programming-languages/javascript/common-built-in-functions/object-methods/object-from-entries.md)
       - **DOM and Web APIs**
-        - [The innerHTML Property](docs/programming-fundamentals/programming-languages/javascript/dom-and-web-apis/element-innerhtml-usage.md)
-        - [Built-in Object: FormData to Representing HTML Form](docs/programming-fundamentals/programming-languages/javascript/dom-and-web-apis/formData-built-in-object.md)
+        - [The `innerHTML` Property](docs/programming-fundamentals/programming-languages/javascript/dom-and-web-apis/element-innerhtml-usage.md)
+        - [Built-in Object: `FormData` to Representing HTML Form](docs/programming-fundamentals/programming-languages/javascript/dom-and-web-apis/formData-built-in-object.md)
       - **Advanced JavaScript Topics**
-        - [Scheduling: setTimeout() and setInterval()](docs/programming-fundamentals/programming-languages/javascript/advanced-javascript-topics/scheduling-settimeout-setinterval.md)
-        - [The Event Loop](docs/programming-fundamentals/programming-languages/javascript/advanced-javascript-topics/the-event-loop.md)
+        - [[TODO] The Event Loop](docs/programming-fundamentals/programming-languages/javascript/advanced-javascript-topics/the-event-loop.md)
     - **TypeScript**
       - [TypeScript in Node.Js QuickStart](docs/programming-fundamentals/programming-languages/typescript/nodejs-typescript-quickstart.md)
       - [A Comprehensive Overview of TypeScript](docs/programming-fundamentals/programming-languages/typescript/comprehensive-overview-of-typescript.md)
@@ -90,14 +96,15 @@
           - [Axis in Flexbox Layout and Alignment](docs/web-development/frontend-development/css/css-layout/css-flexbox-layout/axis-in-flexbox-layout-and-alignment.md)
           - [CSS Flexbox Layout](docs/web-development/frontend-development/css/css-layout/css-flexbox-layout/css-flexbox-layout.md)
         - [CSS Grid](docs/web-development/frontend-development/css/css-layout/css-grid.md)
-        - [CSS Positioning](docs/web-development/frontend-development/css/css-layout/css-positioning.md)
+        - [Understanding CSS Positioning](docs/web-development/frontend-development/css/css-layout/css-positioning.md)
       - [CSS Variables](docs/web-development/frontend-development/css/css-variables.md)
       - **CSS Functions**
         - [The `repeat()` Function in CSS](docs/web-development/frontend-development/css/css-functions/repeat.md)
       - [CSS Media Query and Responsive Styles](docs/web-development/frontend-development/css/css-media-query.md)
       - **[TODO] CSS Preprocessors**
-    - **[TODO] Build Tools**
-      - **Webpack**
+    - **Build Tools**
+      - **Linters and Formatters**
+        - [Install ESLint9, Integrate Prettier into project](docs/web-development/frontend-development/build-tools/linters-and-formatters/integrate-eslint9-and-prettier.md)
   - **Backend Development**
     - **Node.js**
       - [CommonJS vs. ES Modules (ESM) in Node.js](docs/web-development/backend-development/nodejs/commonjs-vs-esmodule.md)
@@ -109,10 +116,16 @@
         - [Monorepo Support in npm Projects](docs/web-development/backend-development/nodejs/npm/menorepo-support-in-npm.md)
       - **Node.js in Command Line**
         - [Understanding `#!/usr/bin/env node` and What Is Shebang or Hashbang](docs/web-development/backend-development/nodejs/cli/shebang-and-hashbang.md)
+- **DevOps**
+  - **Version Control System**
+    - [Version Control Systems (VCS) in DevOps: Understanding Git and GitHub](docs/devops/version-control-system/version-control-system-in-devops.md)
 - **Operating System**
   - **I/O System**
     - [Interrupt Handlers in Operating Systems](docs/operating-system/io-system/interrupt-handlers-in-os.md)
     - [I/O Systems in Operating Systems](docs/operating-system/io-system/io-system-in-os.md)
     - [Blocking vs. Non-Blocking I/O](docs/operating-system/io-system/blocking-vs-non-blocking-io.md)
+- **Computer Networking**
+  - [Sockets in Computer Networking](docs/computer-networking/socket-in-computer-networking.md)
+  - [Understanding TCP: The Backbone of Reliable Internet Communication](docs/computer-networking/understanding-tcp.md)
 
 <!-- TOC_END -->

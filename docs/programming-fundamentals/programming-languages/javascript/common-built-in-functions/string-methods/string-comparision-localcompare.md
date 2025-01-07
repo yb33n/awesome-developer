@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# String Comparison - localeCompare
+# String Comparison - `localeCompare()`
 
 ## Default String Comparison
 

@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Array Accumulator: reduce()
+# Array Accumulator: `reduce()`
 
 ## Common Pitfalls in Array Reduction and Object Manipulation in JavaScript
 

@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# JavaScript Loops: A Comprehensive Guide
+# JavaScript Loops
 
 Loops are used to repeat a block of code multiple times. They are particularly useful when you need to perform the same operation on a collection of items or when you want to execute code until a specific condition is met. This article will focus on the three main types of loops: `for`, `while`, and `do...while`.
 
