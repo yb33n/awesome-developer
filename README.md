@@ -47,6 +47,9 @@
         - [TypeScript Compiler `tsc` Overview](docs/programming-fundamentals/programming-languages/typescript/typescript-compiler-and-project-configuration/typescript-compiler-tsc-overview.md)
         - [TypeScript Project Configuration: `tsconfig.json` ](docs/programming-fundamentals/programming-languages/typescript/typescript-compiler-and-project-configuration/typeScript-project-configuration.md)
         - [TypeScript Module Resolution](docs/programming-fundamentals/programming-languages/typescript/typescript-compiler-and-project-configuration/typescript-module-resolution.md)
+      - [Non-Null Assertion in TypeScript: `!`](docs/programming-fundamentals/programming-languages/typescript/non-null-assertion-!-in-ts.md)
+      - **Miscellaneous**
+        - [TypeScript Compilation Output Structure with Relative Path in `baseUrl` and `rootDir`](docs/programming-fundamentals/programming-languages/typescript/misc/ts-compilation-output-structure.md)
 - **Web Development**
   - **Frontend Development**
     - **How The Web Works: Web Basics**
